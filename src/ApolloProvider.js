@@ -13,7 +13,7 @@ const authLink = setContext(() =>{
 })
 
 const url = createHttpLink({
-    uri: 'http://localhost:5000'
+    uri: 'https://merngserveramin.herokuapp.com'
 })
 
 const client = new ApolloClient({
